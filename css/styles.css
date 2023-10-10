@@ -108,6 +108,10 @@ nav ul li a:hover {
   text-align: justify;
 }
 
+.menutitulo {
+  color: black;
+}
+
 .titulo-galeria {
   text-align: center;
   background-color: black;
