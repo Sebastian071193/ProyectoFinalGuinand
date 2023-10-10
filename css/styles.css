@@ -198,6 +198,7 @@ footer.footer h3 {
   }
   nav ul {
     flex-direction: column;
+    list-style: none;
   }
   nav ul li {
     margin-bottom: 10px;
