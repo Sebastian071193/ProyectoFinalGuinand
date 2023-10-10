@@ -188,6 +188,7 @@ footer.footer h3 {
     grid-template-columns: 1fr;
     grid-template-rows: 10px 10px;
     font-size: 15px;
+    align-items: center;
   }
   nav img.desktop {
     display: none;
