@@ -224,7 +224,7 @@ footer.footer {
   }
 }
 
-@media (max-width: 762px) {
+@media (max-width:1024px) {
   nav {
     grid-template-areas: "mobile" "nav" "nav";
     grid-template-columns: 1fr;
@@ -252,7 +252,7 @@ footer.footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .container-index {
     grid-template-columns: 1fr;
 

@@ -189,7 +189,7 @@ footer.footer h3 {
   font-size: 20px;
 }
 
-@media (max-width: 762px) {
+@media (max-width: 1024px) {
   nav {
     grid-template-areas: "mobile" "nav" "nav";
     grid-template-columns: 1fr;
@@ -212,7 +212,7 @@ footer.footer h3 {
     margin-bottom: 10px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .container-index {
     grid-template-columns: 1fr;
   }
