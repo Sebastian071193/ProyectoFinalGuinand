@@ -95,6 +95,9 @@ nav ul li a:hover {
   line-height: 1.5;
   margin-right: 100px;
 }
+.container-index .mobile {
+  display: none;
+}
 
 .imagen {
   justify-self: center;
@@ -215,6 +218,14 @@ footer.footer h3 {
   }
   .container-index p {
     margin-right: 0;
+  }
+  .container-index .mobile {
+    display: block;
+    width: justify;
+    margin: 10px;
+  }
+  .container-index .content {
+    display: none;
   }
   .imagen {
     margin: 0 auto;
