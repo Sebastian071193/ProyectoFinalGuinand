@@ -175,6 +175,10 @@ nav {
   margin: auto black;
 }
 
+.titulo2 {
+  text-align: center;
+  margin: auto black;
+}
 .container {
   background-color: $background-color_1;
 }
@@ -224,7 +228,7 @@ footer.footer {
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   nav {
     grid-template-areas: "mobile" "nav" "nav";
     grid-template-columns: 1fr;
@@ -271,6 +275,22 @@ footer.footer {
 
   .imagen {
     margin: 0 auto;
+  }
+}
+@media (max-width: 1024px) {
+  .nosotros {
+    grid-template-columns: 1fr;
+  }
+  .mobile {
+    display: block;
+    width: justify;
+    margin: 10px;
+  }
+  .content {
+    display: none;
+  }
+  .titulo2 {
+    display: none;
   }
 }
 

@@ -148,6 +148,11 @@ nav ul li a:hover {
   margin: auto black;
 }
 
+.titulo2 {
+  text-align: center;
+  margin: auto black;
+}
+
 .container {
   background-color: black;
 }
@@ -229,6 +234,22 @@ footer.footer h3 {
   }
   .imagen {
     margin: 0 auto;
+  }
+}
+@media (max-width: 1024px) {
+  .nosotros {
+    grid-template-columns: 1fr;
+  }
+  .mobile {
+    display: block;
+    width: justify;
+    margin: 10px;
+  }
+  .content {
+    display: none;
+  }
+  .titulo2 {
+    display: none;
   }
 }
 @media only screen and (max-width: 1024px) {
